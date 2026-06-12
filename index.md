@@ -333,19 +333,20 @@ description: "Software Engineer building technology that connects people. React,
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;">
       <div>
         <p class="section-label">Author</p>
-        <h2 class="section-title">I Also Write Books</h2>
+        <h2 class="section-title">I'm Writing a Book</h2>
         <p class="section-subtitle" style="margin-bottom:24px;">
-          <em>The Lie We Were Taught</em> is my first published work — a thought-provoking exploration of life, growth, spirituality, and what it means to be truly human in a world full of noise.
+          <em>The Lie We Were Taught</em> is my upcoming work — a thought-provoking exploration of life, growth, spirituality, and what it means to be truly human in a world full of noise.
         </p>
         <p class="section-subtitle" style="margin-bottom:32px;">
-          It's the first book in the <strong style="color:var(--white)">Learning To Be Human</strong> series, with more planned as I continue to think deeply about existence, purpose, and connection.
+          It's the first book in the <strong style="color:var(--white)">Learning To Be Human</strong> series, currently in progress as I continue to think deeply about existence, purpose, and connection.
         </p>
-        <a href="{{ '/books' | relative_url }}" class="btn btn--primary">Explore the Book →</a>
+        <a href="{{ '/books' | relative_url }}" class="btn btn--primary">Learn More →</a>
       </div>
       <div class="book-cover" style="max-width:240px;margin:0 auto;aspect-ratio:2/3;">
         <div class="book-cover__icon">📚</div>
         <div class="book-cover__title">The Lie We Were Taught</div>
         <div class="book-cover__author">Michael Philip</div>
+        <div class="badge badge--gold" style="position:absolute;top:10px;right:10px;font-size:0.6rem;">Coming Soon</div>
       </div>
     </div>
   </div>
