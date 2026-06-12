@@ -14,8 +14,8 @@ permalink: /resume/
         <p class="section-subtitle">Software Engineer · Product Builder · Cybersecurity Enthusiast · Author</p>
         <div style="display:flex;gap:12px;margin-top:24px;flex-wrap:wrap;">
           <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--grey-2);">📍 Nigeria</span>
-          <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--grey-2);">✉️ michael@meethybrid.dev</span>
-          <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--grey-2);">🌐 meethybrid.github.io</span>
+          <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--grey-2);">✉️ philipmichaelonyekachi@gmail.com</span>
+          <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--grey-2);">🌐 philipmichaelonyekachi.github.io</span>
         </div>
       </div>
       <div style="display:flex;gap:10px;flex-shrink:0;">
