@@ -1,0 +1,90 @@
+title: "Michael Philip — Product-Minded Software Engineer"
+description: "Michael Philip (Meethybrid) is a Software Engineer, Product Builder, and Cybersecurity Enthusiast building high-impact digital experiences."
+url: "https://meethybrid.dev"
+baseurl: ""
+
+author:
+  name: Michael Philip
+  handle: philipmichaelonyekachi
+  title: "Software Engineer · Product Builder · Cybersecurity Enthusiast"
+  email: philipmichaelonyekachi@gmail.com
+  github: Meet-hybrid
+  linkedin: philipmichaelonyekachi
+  twitter: Meethybrid_
+  location: Nigeria
+  availability: "Open to Remote & Relocation"
+
+# Premium SEO & Social
+social:
+  name: Michael Philip
+  links:
+    - https://github.com/Meet-hybrid
+    - https://linkedin.com/in/philipmichaelonyekachi
+    - https://x.com/Meethybrid_
+  twitter_card: summary_large_image
+
+google_analytics: "G-XXXXXXXXXX" # Placeholder for GA4
+
+# Theme settings
+theme_color: "#030712"
+background_color: "#030712"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  books:
+    output: true
+    permalink: /books/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Pagination
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+# Sass
+sass:
+  style: compressed
+
+# SEO (for jekyll-seo-tag)
+twitter:
+  username: Meethybrid_
+  card: summary_large_image
+
+# Feed
+feed:
+  path: feed.xml
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+  - package.json
+  - package-lock.json

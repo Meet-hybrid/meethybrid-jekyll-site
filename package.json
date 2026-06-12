@@ -1,0 +1,16 @@
+{
+  "name": "meethybrid-site",
+  "version": "2.0.0",
+  "description": "Premium Developer Portfolio of Michael Philip",
+  "scripts": {
+    "start": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build",
+    "lint:css": "stylelint 'assets/css/*.css'",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "stylelint": "^15.0.0",
+    "stylelint-config-standard": "^34.0.0"
+  }
+}
