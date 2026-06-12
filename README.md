@@ -1,127 +1,65 @@
-# meethybrid.github.io
+# Michael Philip — Premium Developer Portfolio 🚀
 
-Personal website of **Michael Philip** (Meethybrid) — Software Engineer, Product Builder, Cybersecurity Enthusiast, and Author based in Nigeria.
+A high-performance, premium developer portfolio engineered with **Jekyll**, **Vanilla JavaScript**, and **GitHub Actions**. This site is designed to bridge the gap between software engineering, cybersecurity, and product design.
 
-Built with Jekyll. Deployed to GitHub Pages.
+**Live Site:** [https://Meet-hybrid.github.io](https://Meet-hybrid.github.io)
 
 ---
 
-## Local Development
+## ✨ Features
 
-### Prerequisites
-- Ruby 3.x
-- Bundler
+- **Premium UI/UX:** Sophisticated glassmorphism, Bento-grid architecture, and fluid typography using the **Geist** font family.
+- **Interactive Micro-interactions:** Custom-coded magnetic buttons, smooth-follow cursor, and scroll-reveal animations.
+- **Cyber Terminal:** An interactive terminal simulation showcasing cybersecurity skills and technical depth.
+- **Dark/Light Mode:** Robust theme engine with persistent state management.
+- **Automated CI/CD:** Zero-overhead deployment using GitHub Actions.
 
-### Setup
+---
 
+## 🛠️ Customization
+
+### Personal Details
+Update `_config.yml` with your professional details. This file controls the site-wide metadata, SEO, and social links:
+```yaml
+author:
+  name: Michael Philip
+  email: philipmichaelonyekachi@gmail.com
+  github: Meet-hybrid
+  twitter: Meethybrid_
+  # ...
+```
+
+### Contact Form
+The contact form is powered by **Formspree**. To receive messages, update the `action` URL in `contact.md`:
+```html
+<form action="https://formspree.io/f/philipmichaelonyekachi@gmail.com" method="POST">
+```
+
+### Resume PDF
+Your professional resume should be placed at:
+`assets/resume/michael-philip-resume.pdf`
+
+### Profile Photo
+Your official profile picture should be placed at:
+`assets/imgs/michael-philip.jpg`
+
+---
+
+## 🚀 Deployment
+
+This project uses a dual-branch automated workflow. All development happens on the `source` branch, and the built site is served from the `main` branch.
+
+### Local Development
 ```bash
-# Clone the repo (source branch)
-git clone https://github.com/meethybrid/meethybrid.github.io
-cd meethybrid.github.io
-git checkout source
-
 # Install dependencies
 bundle install
 
 # Run locally
 bundle exec jekyll serve
-
-# Open in browser
-open http://localhost:4000
 ```
 
----
-
-## Repository Structure
-
-```
-meethybrid.github.io/
-├── _layouts/          # Page templates (default, post)
-├── _includes/         # Reusable partials (navbar, footer)
-├── _posts/            # Blog posts (YYYY-MM-DD-title.md)
-├── _projects/         # Project case studies
-├── assets/
-│   ├── css/           # main.css (all styles)
-│   ├── js/            # main.js (all scripts)
-│   └── imgs/          # Images and favicon
-├── _config.yml        # Site configuration
-├── index.md           # Homepage
-├── about.md
-├── experience.md
-├── projects.md
-├── skills.md
-├── cybersecurity.md
-├── books.md
-├── blog.md
-├── resume.md
-└── contact.md
-```
-
----
-
-## Branch Strategy
-
-| Branch   | Purpose                          |
-|----------|----------------------------------|
-| `source` | Development — make changes here  |
-| `main`   | Built site — deployed by CI/CD   |
-
-GitHub Actions automatically builds `source` → `main` on every push.
-
-**Never push directly to `main`.**
-
----
-
-## Adding a Blog Post
-
-Create a new file in `_posts/`:
-
-```
-_posts/YYYY-MM-DD-post-title.md
-```
-
-With frontmatter:
-
-```yaml
----
-layout: post
-title: "Your Post Title"
-date: 2025-06-01
-categories: [Engineering]  # or: Cybersecurity, Product, Psychology, etc.
-read_time: 5
-description: "Brief description for SEO and previews."
----
-
-Your markdown content here.
-```
-
----
-
-## Customization
-
-### Personal Details
-Update `_config.yml` with your real email, GitHub handle, LinkedIn URL, Twitter handle, etc.
-
-### Contact Form
-Update the form action URL in `contact.md` with your Formspree endpoint:
-```html
-<form action="https://formspree.io/f/YOUR_ID" method="POST">
-```
-
-### Resume PDF
-Place your resume at `assets/resume/michael-philip-resume.pdf`.
-
-### Profile Photo
-Add your photo at `assets/imgs/michael-philip.jpg` and update the profile avatar in `index.md`.
-
-### Google Analytics
-Add your GA4 tag in `_includes/head.html` (create this if needed).
-
----
-
-## Deployment
-
-Push to the `source` branch. GitHub Actions builds and deploys automatically.
+### Pushing to Production
+GitHub Actions automatically builds and deploys the site whenever you push to the `source` branch.
 
 ```bash
 git add .
@@ -131,6 +69,24 @@ git push origin source
 
 ---
 
-## License
+## 📂 Repository Structure
 
-MIT — feel free to fork and adapt for your own site.
+```text
+Meet-hybrid.github.io/
+├── _layouts/          # Premium glassmorphism templates
+├── _includes/         # Reusable components (Navbar, Footer)
+├── _posts/            # Blog content
+├── assets/
+│   ├── css/           # main.css (Advanced tokens & Bento grid)
+│   ├── js/            # main.js (Interactions & Terminal engine)
+│   ├── resume/        # Professional CV (PDF)
+│   └── imgs/          # Optimized images
+├── _config.yml        # Global metadata & SEO config
+├── .github/           # CI/CD (GitHub Actions workflow)
+└── index.md           # Bento-grid Homepage
+```
+
+---
+
+## 📄 License
+MIT — Created by **Michael Philip** (Meethybrid).
