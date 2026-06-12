@@ -1,1 +1,1 @@
-Sitemap: https://meet-hybrid.github.io/meethybrid-jekyll-site/sitemap.xml
+Sitemap: https://meet-hybrid.github.io/sitemap.xml
