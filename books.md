@@ -39,6 +39,16 @@ permalink: /books/
       </div>
     </div>
 
+    <!-- Introduction Excerpt -->
+    <div class="card" style="margin-bottom:64px; padding: 40px;">
+        <div class="section-label" style="margin-bottom:20px;">Introduction</div>
+        <h2 style="font-family:var(--font-display);font-size:1.75rem;font-weight:700;margin-bottom:20px;">The Fragile Architecture of Meaning</h2>
+        <div class="prose" style="max-width: none;">
+            <p>Human beings are, by necessity, architects of meaning. We are born into a universe that provides no manual, no inherent label for our existence, and no guarantee of a purpose. To survive the terror of this vacuum, we construct elaborate edifices of belief. We build stories, doctrines, and maps to explain the unexplainable—to transform the terrifying unpredictability of life into a manageable, linear path.</p>
+            <p>This book is a quiet act of intellectual and spiritual demolition. It is not an assault on the architects of the past. Rather, it is a questioning of the foundations. It is an inquiry into the tension between our inherited certainties and our lived experiences. This book does not offer a new manual. It does not provide the "correct" answers. It only offers an alternative vantage point. It asks us to consider that perhaps the meaning of our existence is not located in a destination we reach after death, but in the unfolding process of our own evolution while we are alive.</p>
+        </div>
+    </div>
+
     <!-- The Transformation -->
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-bottom:64px;">
       <div class="card">
@@ -64,7 +74,7 @@ permalink: /books/
     <!-- Book Structure -->
     <p class="section-label" style="margin-bottom:24px;">The Roadmap of the Book</p>
     <div class="timeline" style="margin-bottom:64px;">
-      <div class="timeline-item"><div class="timeline-item__role">Introduction</div><p class="timeline-item__desc">What If We've Been Looking at Life the Wrong Way?</p></div>
+      <div class="timeline-item"><div class="timeline-item__role">Introduction</div><p class="timeline-item__desc">The Fragile Architecture of Meaning</p></div>
       <div class="timeline-item"><div class="timeline-item__role">Chapter 1</div><p class="timeline-item__desc">The Story We Inherited</p></div>
       <div class="timeline-item"><div class="timeline-item__role">Chapter 2</div><p class="timeline-item__desc">The World We Were Told to Fear</p></div>
       <div class="timeline-item"><div class="timeline-item__role">Chapter 3</div><p class="timeline-item__desc">What If Life Isn't a Test?</p></div>
