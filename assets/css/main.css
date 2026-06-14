@@ -827,6 +827,15 @@ ul { list-style: none; }
   gap: 24px;
 }
 
+@media (max-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .card > div {
+    grid-template-columns: 1fr !important; /* Force single column inside cards */
+  }
+}
+
 .project-card {
   background: var(--surface);
   border: 1px solid var(--border);
