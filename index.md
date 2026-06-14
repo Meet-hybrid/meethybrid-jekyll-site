@@ -221,7 +221,7 @@ description: "Software Engineer building technology that connects people. React,
             <span class="tech-tag">Tailwind</span>
           </div>
           <div class="project-card__links" style="margin-top: 12px;">
-            <a href="https://habit-tracker-olive-psi.vercel.app/" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Live Demo →</a>
+            <a href="https://hybridchat.vercel.app/" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Live Demo →</a>
           </div>
         </div>
       </div>

@@ -149,8 +149,8 @@ Frontend
           </div>
 
           <div style="display:flex;gap:10px;">
-            <a href="#" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Live Demo →</a>
-            <a href="#" target="_blank" rel="noopener" class="btn btn--outline btn--sm">GitHub Repo</a>
+            <a href="https://hybridchat.vercel.app/" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Live Demo →</a>
+            <a href="https://github.com/Meet-hybrid/HybridShop" target="_blank" rel="noopener" class="btn btn--outline btn--sm">GitHub Repo</a>
           </div>
         </div>
 
