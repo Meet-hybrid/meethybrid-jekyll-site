@@ -56,7 +56,7 @@ description: "Software Engineer building technology that connects people. React,
 
           <div class="profile-stat-grid">
             <div class="profile-stat">
-              <div class="profile-stat__num">3+</div>
+              <div class="profile-stat__num">5+</div>
               <div class="profile-stat__label">Projects</div>
             </div>
             <div class="profile-stat">
@@ -64,7 +64,7 @@ description: "Software Engineer building technology that connects people. React,
               <div class="profile-stat__label">Book</div>
             </div>
             <div class="profile-stat">
-              <div class="profile-stat__num">5+</div>
+              <div class="profile-stat__num">8+</div>
               <div class="profile-stat__label">Tech Stack</div>
             </div>
             <div class="profile-stat">
@@ -92,7 +92,7 @@ description: "Software Engineer building technology that connects people. React,
 <div class="divider--gold"></div>
 
 <!-- ===== STATS BAR ===== -->
-<section class="section--sm" style="padding:48px 0;">
+<section class="section--sm">
   <div class="container">
     <div class="stats-bar">
       <div class="stat-item">
@@ -100,7 +100,7 @@ description: "Software Engineer building technology that connects people. React,
         <div class="stat-item__label">Year Coding</div>
       </div>
       <div class="stat-item">
-        <div class="stat-item__num">3+</div>
+        <div class="stat-item__num">5+</div>
         <div class="stat-item__label">Live Projects</div>
       </div>
       <div class="stat-item">
@@ -130,7 +130,7 @@ description: "Software Engineer building technology that connects people. React,
           I started in business and management — studying people, organizations, and how the world works. Then I discovered software engineering and realized: code is the most powerful tool a builder can have.
         </p>
         <p class="section-subtitle" style="margin-bottom:32px;">
-          Today I'm a Software Engineering Intern at Semicolon Africa, shipping production features, building REST APIs, and learning every single day. I'm also diving deep into cybersecurity — because in the digital age, understanding how systems break is just as important as knowing how to build them.
+          I began my technical journey with Java, mastering the fundamentals of object-oriented design, before expanding into Python and JavaScript. Today I'm a Software Engineering Intern at Semicolon Africa, shipping production features, building REST APIs, and learning every single day.
         </p>
         <a href="{{ '/about' | relative_url }}" class="btn btn--outline">Read My Story →</a>
       </div>
@@ -165,17 +165,53 @@ description: "Software Engineer building technology that connects people. React,
     <p class="section-subtitle" style="margin-bottom:48px;">A selection of projects that reflect how I think, build, and ship.</p>
 
     <div class="bento-grid">
-      <!-- HybridChat -->
+      <!-- POS System -->
       <div class="project-card bento-col-2 bento-row-2">
         <div class="project-card__preview" style="height: 240px;">
           <div class="project-card__preview-code">
-            const socket = io(server);<br>
-            socket.on('message', (data) => {<br>
-            &nbsp;&nbsp;store.dispatch(addMessage(data));<br>
-            });
+            public class Sale {<br>
+            &nbsp;&nbsp;private Long id;<br>
+            &nbsp;&nbsp;private BigDecimal total;<br>
+            &nbsp;&nbsp;public void complete() { ... }<br>
+            }
           </div>
-          <span style="font-size:3.5rem;position:relative;z-index:1;">💬</span>
+          <span style="font-size:3.5rem;position:relative;z-index:1;">🛒</span>
         </div>
+        <div class="project-card__body">
+          <div class="project-card__title">Point of Sale (POS) System</div>
+          <p class="project-card__desc">A comprehensive retail management system with inventory tracking, sales reporting, and transaction history.</p>
+          <div style="font-family:var(--font-mono);font-size:0.75rem;color:var(--gold);margin-bottom:12px;padding:8px;background:var(--bg-2);border-radius:4px;">
+            <strong>Test Barcodes:</strong> 111111, 222222, 333333, 444444, 555555
+          </div>
+          <div class="project-card__tags">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">PostgreSQL</span>
+          </div>
+          <div class="project-card__links" style="margin-top: auto;">
+            <a href="https://pos-system-nine-coral.vercel.app/" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Live Demo →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Habit Tracker -->
+      <div class="project-card bento-col-2">
+        <div class="project-card__body">
+          <div class="project-card__title">Habit Tracker</div>
+          <p class="project-card__desc">A productivity tool to track daily goals and build consistent routines with visual progress indicators.</p>
+          <div class="project-card__tags">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">CSS3</span>
+          </div>
+          <div class="project-card__links" style="margin-top: 12px;">
+            <a href="https://habit-tracker-olive-psi.vercel.app/" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Live Demo →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- HybridChat -->
+      <div class="project-card bento-col-2">
         <div class="project-card__body">
           <div class="project-card__title">HybridChat</div>
           <p class="project-card__desc">Real-time messaging app with Firebase Firestore, authentication, and online presence tracking.</p>
@@ -183,35 +219,6 @@ description: "Software Engineer building technology that connects people. React,
             <span class="tech-tag">Vue.js</span>
             <span class="tech-tag">Firebase</span>
             <span class="tech-tag">Tailwind</span>
-          </div>
-          <div class="project-card__links" style="margin-top: auto;">
-            <a href="{{ '/projects/hybridchat' | relative_url }}" class="btn btn--outline btn--sm">Case Study</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Retail Analytics -->
-      <div class="project-card bento-col-2">
-        <div class="project-card__body">
-          <div class="project-card__title">Retail Analytics</div>
-          <p class="project-card__desc">KPI tracking and data visualization dashboard built with React and Redux.</p>
-          <div class="project-card__tags">
-            <span class="tech-tag">React</span>
-            <span class="tech-tag">Redux</span>
-            <span class="tech-tag">Charts</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Customer Feedback -->
-      <div class="project-card bento-col-2">
-        <div class="project-card__body">
-          <div class="project-card__title">Customer Feedback</div>
-          <p class="project-card__desc">Full-stack web application with Node.js/Express API and Jest coverage.</p>
-          <div class="project-card__tags">
-            <span class="tech-tag">Node.js</span>
-            <span class="tech-tag">Express</span>
-            <span class="tech-tag">Jest</span>
           </div>
         </div>
       </div>

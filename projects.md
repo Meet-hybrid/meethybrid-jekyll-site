@@ -25,6 +25,88 @@ permalink: /projects/
       <button class="filter-tab" data-filter="analytics">Analytics</button>
     </div>
 
+    <!-- POS System — Featured -->
+    <div class="card" style="margin-bottom:32px;border-left:3px solid var(--gold);" data-category="fullstack backend">
+      <div style="display:grid;grid-template-columns:1fr 240px;gap:40px;align-items:start;">
+        <div>
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+            <span class="badge badge--gold">Featured</span>
+            <span class="badge badge--green">Live</span>
+          </div>
+          <h2 style="font-family:var(--font-display);font-size:1.75rem;font-weight:700;margin-bottom:12px;">Point of Sale (POS) System</h2>
+          <p style="color:var(--grey-2);line-height:1.7;margin-bottom:20px;font-size:0.9375rem;">
+            A comprehensive retail management system designed to streamline business operations. Features include inventory tracking, automated sales calculations, real-time transaction recording, and business reporting.
+          </p>
+
+          <h3 style="font-family:var(--font-display);font-size:1rem;font-weight:700;color:var(--grey-1);margin-bottom:10px;">Architecture</h3>
+          <p style="color:var(--grey-2);font-size:0.875rem;line-height:1.7;margin-bottom:16px;">
+            Built with a robust React frontend and a scalable Node.js backend. Data is persisted in a PostgreSQL database, managed through an optimized ORM layer. The system implements secure JWT authentication and role-based access control for staff and administrators.
+          </p>
+
+          <h3 style="font-family:var(--font-display);font-size:1rem;font-weight:700;color:var(--grey-1);margin-bottom:10px;">Test Information</h3>
+          <div style="font-family:var(--font-mono);font-size:0.8125rem;color:var(--gold);margin-bottom:20px;padding:12px;background:var(--bg-2);border:1px solid var(--border-gold);border-radius:var(--radius);">
+            <strong>Sample Barcodes:</strong> 111111, 222222, 333333, 444444, 555555 <br>
+            <span style="font-size:0.75rem;color:var(--grey-3);">// Enter these in the POS interface to simulate items.</span>
+          </div>
+
+          <div class="skill-tags" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Express</span>
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">REST API</span>
+          </div>
+
+          <div style="display:flex;gap:10px;">
+            <a href="https://pos-system-nine-coral.vercel.app/" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Live Demo →</a>
+          </div>
+        </div>
+
+        <div style="background:var(--bg-2);border:1px solid var(--border);border-radius:var(--radius-lg);padding:24px;">
+          <div style="font-family:var(--font-mono);font-size:0.7rem;color:var(--grey-3);margin-bottom:12px;">// System Overview</div>
+          <pre style="font-family:var(--font-mono);font-size:0.7rem;color:var(--grey-2);line-height:1.8;margin:0;white-space:pre-wrap;">Backend (Node.js)
+  ├── Auth Controller
+  ├── Product Service
+  └── Order Repository
+
+Database
+  └── PostgreSQL
+       ├── Products
+       ├── Transactions
+       └── Users
+
+Frontend
+  └── React Dashboard</pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- Habit Tracker -->
+    <div class="card" style="margin-bottom:32px;" data-category="fullstack frontend">
+      <div style="display:grid;grid-template-columns:1fr 240px;gap:40px;align-items:start;">
+        <div>
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+            <span class="badge badge--green">Live</span>
+          </div>
+          <h2 style="font-family:var(--font-display);font-size:1.75rem;font-weight:700;margin-bottom:12px;">Habit Tracker</h2>
+          <p style="color:var(--grey-2);line-height:1.7;margin-bottom:20px;font-size:0.9375rem;">
+            A productivity-focused application that helps users build and maintain positive routines. It provides visual feedback on consistency and allows users to track multiple habits with personalized targets.
+          </p>
+
+          <div class="skill-tags" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Cloud Firestore</span>
+            <span class="tech-tag">CSS3</span>
+          </div>
+
+          <div style="display:flex;gap:10px;">
+            <a href="https://habit-tracker-olive-psi.vercel.app/" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Live Demo →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- HybridChat — Featured -->
     <div class="card" style="margin-bottom:32px;border-left:3px solid var(--gold);" data-category="fullstack frontend">
       <div style="display:grid;grid-template-columns:1fr 240px;gap:40px;align-items:start;">
