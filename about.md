@@ -8,37 +8,29 @@ permalink: /about/
 <section class="page-header">
   <div class="container">
     <p class="section-label">About Me</p>
-    <h1 class="section-title" style="font-size:clamp(2rem,4vw,3.25rem);">From Business Student<br>to Software Engineer</h1>
-    <p class="section-subtitle">A founder story, a learning journey, and a life still being written.</p>
-  </div>
-</section>
+    <h1 class="section-title" style="font-size:clamp(2rem,4vw,3.25rem);">Architect of Meaning</h1>
+        <p class="section-subtitle">Software Engineer. Author. Thinker. Exploring the intersection of systems, human behavior, and the digital age.</p>
+      </div>
+    </section>
 
-<section class="section">
-  <div class="container">
-    <div style="display:grid;grid-template-columns:1fr 340px;gap:64px;align-items:start;">
+    <section class="section">
+      <div class="container">
+        <div style="display:grid;grid-template-columns:1fr 340px;gap:64px;align-items:start;">
 
-      <!-- Story -->
-      <div class="prose">
-        <h2>The Beginning — Business, People & How the World Works</h2>
-        <p>
-          My journey didn't start with code. It started with questions. Growing up in Nigeria, I was always fascinated by how systems work — how businesses grow, how people behave, how organizations succeed or collapse under their own weight. That curiosity led me to study Business Management, where I spent years learning about economics, psychology, entrepreneurship, and the mechanics of human decision-making.
-        </p>
-        <p>
-          That foundation gave me something most engineers don't have early in their career: a deep understanding of <em>why</em> things are built, not just <em>how</em>.
-        </p>
+          <!-- Story -->
+          <div class="prose">
+            <h2>The Architecture of Belief</h2>
+            <p>
+              My work is an exploration of the intersection between complex systems—whether they are digital architectures or the fragile frameworks of human meaning. I started in business management, questioning the architectures of society and the mechanisms of decision-making, before finding in software engineering a way to construct meaning in the digital age.
+            </p>
+            <p>
+              This foundation gives me a perspective that bridges the gap between technical execution and the <em>why</em> of product development. I am not just interested in how to build; I am interested in what we are building, and what these systems reveal about the people who inhabit them.
+            </p>
 
-        <h2>The Pivot — Discovering Software Engineering</h2>
-        <p>
-          The shift happened gradually, then all at once. I started noticing that the most transformative businesses in the world were technology companies. Not because technology was cool — but because technology was the <em>lever</em>. It could multiply effort. It could reach millions. It could build things that worked while you slept.
-        </p>
-        <p>
-          I started learning to code. Java first — building a strong foundation in object-oriented programming. Then Python for its versatility, and eventually JavaScript to bring ideas to life on the web. The feeling of writing something that actually works — something a real person can use — was unlike anything else I'd experienced. I was hooked.
-        </p>
-
-        <h2>Semicolon Africa — Learning to Ship</h2>
-        <p>
-          Joining Semicolon Africa as a Software Engineering Intern was the moment everything became real. No more tutorials. No more "hello world." Suddenly I was writing production React features, building Node.js APIs, working in Agile sprints, submitting pull requests to a real team, and having my code reviewed by engineers who expected quality.
-        </p>
+            <h2>Engineering as Participation</h2>
+            <p>
+              Joining Semicolon Africa as a Software Engineering Intern was the moment this intellectual pursuit became practical. I learned that engineering is not merely code; it is a discipline of participation. Shipping production features, building APIs, and working in Agile teams is an exercise in managing complexity and creating order out of chaos—a theme that permeates everything I do, including my writing.
+            </p>
         <p>
           It was intense. It was also exactly what I needed. I learned how to read and navigate a real codebase, how to write tests that actually protect the system, how to communicate clearly in engineering discussions, and how to ship with confidence. The gap between "learning to code" and "building software professionally" is wide — Semicolon Africa pushed me across it.
         </p>
